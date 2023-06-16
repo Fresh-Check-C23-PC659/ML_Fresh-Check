@@ -1,7 +1,7 @@
 import requests
 
-# resp = requests.post("http://127.0.0.1:5000", files={'file': open('stale_tomato.jpeg', 'rb')})
-resp = requests.post("https://getprediction-73izf5446q-as.a.run.app", files={'file': open('stale_tomato.jpeg', 'rb')})
+resp = requests.post("http://127.0.0.1:5000", files={'file': open('fresh_apple_2.png', 'rb')})
+# resp = requests.post("https://getprediction-73izf5446q-as.a.run.app", files={'file': open('stale_tomato.jpeg', 'rb')})
 
 try:
     response_data = resp.json()
